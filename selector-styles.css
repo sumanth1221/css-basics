@@ -19,6 +19,9 @@ p#sample-div-id{
     color: blueviolet;
 }
 
+
+/* Pseudo Classes */
+
 div.sample-div-1:hover{
     color: white;
     background-color: burlywood;

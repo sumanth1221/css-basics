@@ -1,0 +1,25 @@
+p.paragraph-element {
+    color: red;
+}
+
+p::before {
+    content: '=> ';
+    color: green;
+    font-size: x-large;
+}
+
+p::after {
+    content: ' <=  ';
+    color: green;
+    font-size: x-large;
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: brown;
+}
+
+/* Regular Styles */
+div{
+    margin: 10px;
+}
