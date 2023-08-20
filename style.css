@@ -2,3 +2,7 @@ p{
     color: aqua;
     background-color: yellow;
 }
+
+a:visited {
+    color: green;
+}
