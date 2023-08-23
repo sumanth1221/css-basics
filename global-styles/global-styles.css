@@ -2,6 +2,7 @@
     --blue: hsl(242, 82%, 53%);
     --brown: hsl(0, 80%, 20%);
     --yellow: hsl(50, 91%, 43%);
+    --red: hsl(0, 92%, 42%);
   }
 
 .general-para-tag{
@@ -9,10 +10,15 @@
 }
 
 .content-color{
-    color: hsl(0, 0%, 0%);
+    color: var(--blue);
 }
 
 .highlight-content{
     color: var(--blue);
     background-color: var(--yellow);
+}
+
+.simple-border{
+    border: 1px black solid;
+    margin: 2px;
 }

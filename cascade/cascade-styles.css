@@ -1,0 +1,17 @@
+/* Specificity */
+/* id > class > tag */
+
+p{
+    color: red;
+}
+
+/* id has more precedence */
+p#cascade-content-color{
+    color: hsl(89, 91%, 13%);
+    /* background-color: var(--yellow); */
+}
+
+/* inherited color from here */
+.content-color{
+    color: var(--brown);
+}
