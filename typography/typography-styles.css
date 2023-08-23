@@ -1,0 +1,13 @@
+p {
+    font-size: 1.2rem;
+    font-family: 'Tilt Prism', cursive;
+    color: hsl(248, 53%, 0.893);
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}

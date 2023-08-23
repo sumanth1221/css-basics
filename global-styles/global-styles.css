@@ -1,0 +1,18 @@
+:root {
+    --blue: hsl(242, 82%, 53%);
+    --brown: hsl(0, 80%, 20%);
+    --yellow: hsl(50, 91%, 43%);
+  }
+
+.general-para-tag{
+    color: var(--brown);
+}
+
+.content-color{
+    color: hsl(0, 0%, 0%);
+}
+
+.highlight-content{
+    color: var(--blue);
+    background-color: var(--yellow);
+}
