@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
 :root {
     --blue: hsl(242, 82%, 53%);
     --brown: hsl(0, 80%, 20%);

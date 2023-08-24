@@ -1,0 +1,101 @@
+/*
+padding-top === padding-bloc k-start
+padding-bottom === padding-block-end
+padding-left === padding-inline-start
+padding-right === padding-inlint-end
+*/
+
+
+p.para-box-model-style-1{
+    width: 80%;
+    color: hsl(10, 88%, 43%);
+    
+    /* border-styles */
+    border-top: 3px solid blueviolet;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid black;
+    border-right: 3px solid pink;
+    
+    
+    /* margin-styles */
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    margin-left: 20px; 
+    margin-right: 30px;
+    
+    /* padding-styles */
+    padding-top: 20px;
+    padding-bottom: 30px; 
+    padding-left: 20px; 
+    padding-right: 30px;  
+}
+
+p.para-box-model-style-1{
+    border: 3px solid blueviolet;
+}
+
+p.para-box-model-style-2{
+    width: 80%;
+    border: 3px solid red;
+    /* margin-styles y-axis x-axis*/
+    margin: 30px 50px;
+
+    /* padding-styles y-axis x-axis*/
+    padding: 30px 50px;
+}
+
+p.para-box-model-style-3{
+    width: 80%;
+    border-color: brown;
+    border-style: dashed;
+    border-width: 5px;
+    border-top: 3px solid blueviolet;
+    /* margin-styles */
+    margin: 20px 10px 50px 60px;
+
+    /* padding-styles */
+    padding: 20px 10px 50px 60px;
+}
+
+p.para-box-model-style-4{
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 5%; */
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+p.para-box-model-style-5{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 55%;
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 35%;
+}
+
+p.para-box-model-style-6{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+p.para-box-sizing-1{
+    width: 80%;
+    color: green;
+    padding: 20px;
+    border: 3px solid hotpink;
+}
+
+p.para-box-sizing-2{
+    width: 80%;
+    box-sizing: border-box;
+    color: green;
+    padding: 10px;
+    border: 3px solid hotpink;
+}
