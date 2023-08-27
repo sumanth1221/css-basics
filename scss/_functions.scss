@@ -1,0 +1,4 @@
+// Defining functions in SCSS
+@mixin block-highlight($color : blue, $style: dashed){
+    border: 1px $style $color;
+}

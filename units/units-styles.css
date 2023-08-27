@@ -29,6 +29,6 @@ p#paragraph-unit-rem {
     font-size: 1rem;
 }
 
-/* p#paragraph-unit-percent {
+p#paragraph-unit-percent {
     font-size: 200%;
-} */
+}

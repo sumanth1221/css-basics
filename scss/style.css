@@ -1,0 +1,35 @@
+h1 {
+  background-color: skyblue;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer:hover {
+  border: 2px solid green;
+}
+
+header {
+  margin: 10px 0;
+  border: 2px solid red;
+}
+header nav ul {
+  border: 1px dotted green;
+}
+header nav ul li {
+  color: green;
+}
+header nav ul li:last-of-type {
+  color: red;
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+
+footer:hover {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+// importing variables from other file in SCSS
+@import 'variables';
+@import 'components';
+@import 'functions';
+
+
+header {
+    margin: 10px 0;
+    border: 2px solid red;
+    nav {
+        ul {
+            @include block-highlight($color: green, $style: dotted);
+            li{
+                color: green;
+            }
+            li:last-of-type{
+                color: red;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+footer:hover{
+    @extend %generic-block-style;
+    background-color: aqua;
+}

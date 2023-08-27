@@ -5,3 +5,7 @@ p{
 a{
     color: inherit;
 }
+span{
+    margin: 10px;
+    display: block;
+}

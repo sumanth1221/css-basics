@@ -99,3 +99,15 @@ p.para-box-sizing-2{
     padding: 10px;
     border: 3px solid hotpink;
 }
+
+div.negative-margin-example {
+    color: red;
+    border: 2px solid black;
+}
+
+div.negative-margin-example h2{
+    color: blue;
+    background-color: aquamarine;
+    margin: -20px 20px 20px 20px;
+    border: 2px solid brown;
+}

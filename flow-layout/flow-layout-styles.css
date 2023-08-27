@@ -1,0 +1,18 @@
+.apply-border {
+    border: 2px solid black;
+}
+
+.content-height {
+
+    height: 2rem;
+}
+
+span{
+    display: inline-block;
+    color: red;
+    padding: 10px;
+}
+
+strong{
+    color: blue;
+}
