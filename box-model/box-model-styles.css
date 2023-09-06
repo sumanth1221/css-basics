@@ -109,5 +109,12 @@ div.negative-margin-example h2{
     color: blue;
     background-color: aquamarine;
     margin: -20px 20px 20px 20px;
-    border: 2px solid brown;
+    border: 12px solid brown;
+}
+
+#box-model-quirks{
+    color: blueviolet;
+    border: 2px solid red;
+    padding: 20px 10px;
+    margin: 40px 20px;
 }
